@@ -1,10 +1,9 @@
-function CardItem({title, description}){
-    return(
-        <div className="card" style="width: 18rem;">
-            {/* <img src="..." className="card-img-top" alt="..."/> */}
+function CardItem({ title, description }) {
+    return (
+        <div className="card h-100">
             <div className="card-body">
-                <h5 className="card-title"> {title} </h5>
-                <p className="card-text"> {description} </p>
+                <h5 className="card-title">{title}</h5>
+                <p className="card-text">{description}</p>
             </div>
         </div>
     );
